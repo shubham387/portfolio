@@ -2,17 +2,7 @@ import logo from './logo.svg';
 import AuthorInfo from './components/AuthorInfo';
 import Header from './components/Header';
 import './App.css';
-
-
-function RecentPosts () {
- 
-}
-function FeaturedWorks(){
-
-}
-function Footer () {
-
-}
+import React from 'react'
 
 function App() {
   return (
@@ -21,7 +11,6 @@ function App() {
       <main>
         <AuthorInfo />
       </main>
-      <Footer />
     </div>
   );
 }
